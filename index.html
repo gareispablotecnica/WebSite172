@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ISFT N° 172 - Instituto Superior de Formación Técnica. Educación tecnológica de excelencia.">
+    <title>ISFT N° 172 - Formación Técnica Superior</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body>
+    <!-- Overlay para cerrar sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container max-w-7xl">
+            <a href="#" class="navbar-logo">
+
+                <img src="Media/Logo/Logo.png" alt="" class="logo-icon">
+
+                <div class="logo-text">
+                    <div class="logo-title">ISFT N°172</div>
+                </div>
+            </a>
+
+            <div class="nav-menu desktop">
+                <a href="#carrera" class="nav-item">Carreras</a>
+                <a href="#institucion" class="nav-item">Institución</a>
+                <a href="#contacto" class="nav-item">Contacto</a>
+                <a href="#inicio" class="nav-item">Inicio</a>
+                <a href="#carrera" class="nav-item">Concursos Docentes</a>
+            </div>
+
+            <div class="nav-cta desktop">
+                <a href="#contacto" class="btn btn-primary">Inscribirse</a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Sidebar menú lateral izquierdo en lugar de dropdown -->
+        <div class="sidebar-menu" id="sidebarMenu">
+            <div class="sidebar-header">
+                <h2>Menú</h2>
+                <button class="sidebar-close" id="sidebarClose" aria-label="Cerrar menú">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <a href="#carrera" class="nav-item sidebar-item">Carreras</a>
+            <a href="#institucion" class="nav-item sidebar-item">Institución</a>
+            <a href="#contacto" class="nav-item sidebar-item">Contacto</a>
+            <a href="#inicio" class="nav-item sidebar-item">Inicio</a>
+            <a href="#carrera" class="nav-item sidebar-item">Concursos Docentes</a>
+            <a href="#contacto" class="btn btn-primary sidebar-btn">Inscribirse</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container max-w-7xl">
+                <div class="hero-left">
+                    <div class="badge">Educación del Futuro</div>
+                    <h1 class="hero-title">Dominá la <span class="gradient-text">Tecnología</span> del Mañana</h1>
+                    <p class="hero-subtitle">Formamos profesionales de excelencia en tecnología, líderes en innovación
+                        desde 1986.</p>
+                    <div class="hero-buttons">
+                        <a href="#carrera" class="btn btn-primary">Explorar Carreras ➜</a>
+                        <a href="#institucion" class="btn btn-outline">Conocer ISFT</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-value">38+</div>
+                            <div class="stat-label">Años</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">+1000</div>
+                            <div class="stat-label">Egresados</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">95%</div>
+                            <div class="stat-label">Laboral</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="hero-visual">
+                        <div class="floating-card">
+                            <div class="card-icon">👨🏻‍⚕️</div>
+                            <div class="card-text">Acompañante Terapéutico</div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">👩🏻‍💻</div>
+                            <div class="card-text">Desarrollo de Software</div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">🏋🏻‍♀️</div>
+                            <div class="card-text">Prácticas Deportivas</div>
+                        </div>
+                        <div class="tech-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="max-w-7xl">
+                <div class="section-header">
+                    <h2 class="section-title">Por qué elegir ISFT</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Educación Acreditada</h3>
+                        <p>Títulos oficiales reconocidos por el estado con validez nacional.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Docentes Expertos</h3>
+                        <p>Profesionales activos en la industria con experiencia real.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Innovación Constante</h3>
+                        <p>Curriculum actualizado con las últimas tecnologías.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Oportunidades Globales</h3>
+                        <p>Acceso a oportunidades de empleo internacional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section id="carrera" class="careers">
+            <div class="max-w-7xl">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestras Carreras</h2>
+                    <p class="section-description">Tecnicaturas de 3 años con salida laboral inmediata</p>
+                </div>
+
+                <div class="careers-grid">
+                    <div class="career-card">
+                        <div class="career-card-icon">
+                            <img src="Media/Img/Analista.png" alt="">
+                        </div>
+                        <h3 class="career-card-title">Análisis de Sistemas</h3>
+                        <p>Especialízate en programación, bases de datos y arquitectura de software moderno.</p>
+                        <div class="career-footer">
+                            <a href="#" class="btn btn-duration">3 años</a>
+                            <a href="#" class="arrow">→</a>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <div class="career-card-icon">
+                            <img src="Media/Img/Desarrollo.png" alt="">
+                        </div>
+                        <h3 class="career-card-title">Desarrollo de Software</h3>
+                        <p>Crea aplicaciones web y móviles innovadoras con tecnologías de punta.</p>
+                        <div class="career-footer">
+                            <a href="#" class="btn btn-duration">3 años</a>
+                            <a href="#" class="arrow">→</a>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <div class="career-card-icon">
+                            <img src="Media/Img/Acompañante.png" alt="">
+                        </div>
+                        <h3 class="career-card-title">Acompañamiento Terapéutico</h3>
+                        <p>Formación integral en contención emocional y promoción de autonomía.</p>
+                        <div class="career-footer">
+                            <a href="#" class="btn btn-duration">3 años</a>
+                            <a href="#" class="arrow">→</a>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <div class="career-card-icon">
+                            <img src="Media/Img/Deporte.png" alt="">
+                        </div>
+                        <h3 class="career-card-title">Prácticas Deportivas</h3>
+                        <p>Desarrollate como profesional del deporte y la actividad física.</p>
+                        <div class="career-footer">
+                            <a href="#" class="btn btn-duration">3 años</a>
+                            <a href="#" class="arrow">→</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact">
+            <div class="max-w-7xl">
+                <div class="section-header">
+                    <h2 class="section-title">Contacto</h2>
+                    <p class="section-description">Estamos aquí para resolver tus dudas</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="Media/Global/mapa.png" alt="">
+                        </div>
+                        <h3>Ubicación</h3>
+                        <p>Monseñor Piaggio 402<br>Lomas de Zamora, Buenos Aires</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="Media/Global/telefono.png" alt="">
+                        </div>
+                        <h3>Teléfono</h3>
+                        <p><a href="tel:01142927860">(011) 4292-7860</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="Media/Global/gmail.png" alt="">
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:isft172@abc.gob.ar">isft172@abc.gob.ar</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="Media/Global/horario.png" alt="">
+                        </div>
+                        <h3>Horario</h3>
+                        <p>Lunes a Viernes<br>18:00 - 22:00 hs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="max-w-7xl">
+                <h2>¿Listo para tu futuro?</h2>
+                <p>Únete a la comunidad ISFT N° 172</p>
+                <a href="#contacto" class="btn btn-primary btn-lg">Inscribirse Ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-content max-w-7xl">
+                <div class="footer-grid">
+                    <div class="footer-section footer-about">
+                        <div class="footer-logo">
+                            
+                            <img src="Media/Logo/Logo.png" alt="" class="logo-icon footer-logo-icon">
+                            <div class="logo-title">ISFT N°172</div>
+                        </div>
+                        <p>Formando profesionales en tecnología desde 1986.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" aria-label="Facebook">f</a>
+                            <a href="#" class="social-link" aria-label="Instagram">In</a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">Ln</a>
+                            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4 class="footer-title">Navegación</h4>
+                        <ul class="footer-links">
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#carrera">Carreras</a></li>
+                            <li><a href="#institucion">Institución</a></li>
+                            <li><a href="#carrera">Concursos Docentes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4 class="footer-title">Estudiantes</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Inscripción</a></li>
+                            <li><a href="#">Cartelera</a></li>
+                            <li><a href="#">Campus Virtual</a></li>
+                            <li><a href="#">Portal Académico</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4 class="footer-title">Ubicación</h4>
+                        <div class="footer-location">
+                            <p>📍 Monseñor Piaggio 402</p>
+                            <p>Lomas de Zamora,<br>Buenos Aires</p>
+                            <p class="location-contact">
+                                <a href="tel:01142927860">(011) 4292-7860</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4 class="footer-title">Contacto</h4>
+                        <div class="footer-contact">
+                            <p>📧 <a href="mailto:isft172@abc.gob.ar">isft172@abc.gob.ar</a></p>
+                            <p>🕐 Lunes a Viernes<br>18:00 - 22:00 hs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="year">2024</span> ISFT N° 172. Todos los derechos reservados.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Términos de Uso</a>
+                        <a href="#">Privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de scroll to top con flecha -->
+    <button class="scroll-to-top" id="scrollToTopBtn" aria-label="Subir al inicio">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
